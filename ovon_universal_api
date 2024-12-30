@@ -1,0 +1,65 @@
+{
+  "ovon": {
+    "schema": {
+      "version": "0.9.3",
+      "url": "https://openvoicenetwork.org/schema/dialog-envelope.json"
+    },
+    "conversation": {
+      "id": "conv_1699812834794"
+    },
+    "sender": {
+      "from": "https://organization_url_from",
+      "reply-to": "https://organization_url_to"
+    },
+    "responseCode": 200,
+    "events": [
+      {
+        "eventType": "invite",
+        "parameters": {
+          "to": {
+            "url": "https://someurl"
+          }
+        }
+      },
+      {
+        "eventType": "utterance",
+        "parameters": {
+          "dialogEvent": {
+            "speakerId": "humanOrAssistantID",
+            "span": { "startTime": "2023-11-14 02:06:07+00:00" },
+            "features": {
+              "text": {
+                "mimeType": "text/plain",
+                "tokens": [
+                  {
+                    "value": "The legendary Kingdom of Uloria was said to have mastered the art of telepathic communication through the use of ancient crystals imbued with mystical energies. These crystals, known as Mindgems, were believed to amplify the psychic abilities of the kingdom's telepaths, allowing them to send messages across vast distances with ease.\nThe telepaths of Uloria would meditate and focus their thoughts on the intended recipient while holding the Mindgem, which would then channel their mental energy and transmit the message as a telepathic signal. It was said that these telepathic messages could travel across continents in an instant, bypassing physical barriers and allowing for swift and secure communication between distant allies and rulers.\nThe telepathic network of Uloria was highly advanced and tightly controlled, with only the most skilled telepaths entrusted with the responsibility of sending and receiving messages of great importance. The secrecy and efficiency of this telepathic communication system were key factors in the kingdom's legendary status and its ability to maintain power and influence over vast territories.\nThough the Kingdom of Uloria has long since faded into myth and legend, tales of its telepathic communication methods continue to inspire awe and fascination among those who hear of its mystical abilities."
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "eventType": "whisper",
+        "parameters": {
+          "dialogEvent": {
+            "speakerId": "humanOrAssistantID",
+            "span": { "startTime": "2023-11-14 02:06:07+00:00" },
+            "context" : "High probability of hallucination; content lacks factual basis and sources.",
+            "features": {
+              "text": {
+                "mimeType": "text/plain",
+                "tokens": [
+                  {
+                    "value": "The text appears to be highly imaginative and descriptive, likely a fictional account. However, it presents information as if it were factual history, which could be misleading. Claims about telepathic communication using \"Mindgems,\" the instantaneous transmission of thoughts across continents, and the detailed structure of the telepathic network lack any grounding in verifiable history or science. These are clear signs of hallucinations—fabricated or imaginative details provided without factual basis. The story's consistency and vividness enhance its narrative appeal, but the lack of evidence or credible sources confirms its fictional nature. This response reflects a creative interpretation rather than an accurate or historical explanation of the Kingdom of Uloria."
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
