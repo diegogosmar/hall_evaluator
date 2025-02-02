@@ -8,8 +8,7 @@
 * Comments:	18 pages, 6 figures
 * Subjects:	Computation and Language (cs.CL); Artificial Intelligence (cs.AI); Multiagent Systems (cs.MA)
 * Cite as:	arXiv:2501.13946 [cs.CL]
-* 	(or arXiv:2501.13946v1 [cs.CL] for this version)
+* (or arXiv:2501.13946v1 [cs.CL] for this version)
+* Please note that the 310-prompts used to induce hallucinations have been hidden for safety reasons.
 * 
 * https://doi.org/10.48550/arXiv.2501.13946
-
-# The 310-prompts used to induce hallucination have been hidden for safety reasons.
