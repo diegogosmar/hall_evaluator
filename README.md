@@ -1,6 +1,7 @@
 # Multi Agent Agentic Hallucinatoin Evaluator
-![Alt text](images/multi_agents_hallucination_eval.png)
-<img src="images/multi_agents_hallucination_eval.png" alt="Alt Text" style="width:50%; height:auto;">
+<p align="center">
+  <img src="images/multi_agents_hallucination_eval.png" alt="Alt Text" style="width:60%; height:auto;">
+</p>
 
 ## This project contains the full code used to simulate the empirical experiment described in the following paper:
 * Hallucination Mitigation using Agentic AI Natural Language-Based Frameworks
