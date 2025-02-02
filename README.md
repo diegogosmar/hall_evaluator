@@ -10,5 +10,4 @@
 * Cite as:	arXiv:2501.13946 [cs.CL]
 * (or arXiv:2501.13946v1 [cs.CL] for this version)
 * Please note that the 310-prompts used to induce hallucinations have been hidden for safety reasons.
-* 
-* https://doi.org/10.48550/arXiv.2501.13946
+* Paper URL: https://doi.org/10.48550/arXiv.2501.13946
